@@ -1,0 +1,148 @@
+2025-09-08 19:55:31,278 - __main__ - INFO - [834c77cf] Testing Selenium browser setup...
+2025-09-08 19:55:31,279 - src.browser.selenium_manager - INFO - [99c6a1bb] Starting Selenium Chrome browser
+2025-09-08 19:55:31,280 - WDM - INFO - ====== WebDriver manager ======
+2025-09-08 19:55:38,810 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-08 19:55:40,295 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-08 19:55:41,601 - WDM - INFO - There is no [win64] chromedriver "140.0.7339.80" for browser google-chrome "140.0.7339" in cache
+2025-09-08 19:55:41,624 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-08 19:55:44,932 - WDM - INFO - WebDriver version 140.0.7339.80 selected
+2025-09-08 19:55:44,942 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.80/win32/chromedriver-win32.zip
+2025-09-08 19:55:44,945 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.80/win32/chromedriver-win32.zip
+2025-09-08 19:55:46,397 - WDM - INFO - Driver downloading response is 200
+2025-09-08 19:55:48,876 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-08 19:55:52,162 - WDM - INFO - Driver has been saved in cache [C:\Users\saray\.wdm\drivers\chromedriver\win64\140.0.7339.80]
+2025-09-08 19:55:56,718 - src.browser.selenium_manager - INFO - [99c6a1bb] Selenium browser started successfully
+2025-09-08 19:55:56,719 - src.browser.selenium_manager - INFO - [99c6a1bb] Navigating to: https://internshala.com
+2025-09-08 19:56:03,202 - __main__ - INFO - [834c77cf] Page title: Internships | Jobs | Trainings & Placement Guarantee Courses | Post a Job
+2025-09-08 19:56:04,054 - src.browser.selenium_manager - INFO - [99c6a1bb] Screenshot saved: debug_test_homepage_99c6a1bb.png
+2025-09-08 19:56:04,055 - __main__ - INFO - [834c77cf] Screenshot saved: debug_test_homepage_99c6a1bb.png
+2025-09-08 19:56:04,089 - src.browser.selenium_manager - INFO - [99c6a1bb] Session saved
+2025-09-08 19:56:06,565 - src.browser.selenium_manager - INFO - [99c6a1bb] Browser closed
+2025-09-08 19:58:16,160 - src.browser.manager_selenium - INFO - [0352dd63] Starting browser manager with Selenium
+2025-09-08 19:58:16,161 - src.browser.selenium_manager - INFO - [0352dd63] Starting Selenium Chrome browser
+2025-09-08 19:58:16,162 - WDM - INFO - ====== WebDriver manager ======
+2025-09-08 19:58:22,992 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-08 19:58:24,525 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-08 19:58:25,907 - WDM - INFO - Driver [C:\Users\saray\.wdm\drivers\chromedriver\win64\140.0.7339.80\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-08 19:58:34,462 - src.browser.selenium_manager - INFO - [0352dd63] Session cookies loaded
+2025-09-08 19:58:34,463 - src.browser.selenium_manager - INFO - [0352dd63] Selenium browser started successfully
+2025-09-08 19:58:34,463 - src.browser.manager_selenium - INFO - [0352dd63] Browser manager started successfully
+2025-09-08 19:58:34,473 - src.browser.selenium_manager - INFO - [0352dd63] Navigating to: https://internshala.com
+2025-09-08 19:58:37,675 - src.browser.selenium_manager - INFO - [0352dd63] Navigating to: https://internshala.com/student/dashboard
+2025-09-08 19:58:50,063 - src.browser.selenium_manager - WARNING - [0352dd63] Selector not found: .dashboard
+2025-09-08 19:58:50,064 - src.browser.internshala_bot - INFO - [0352dd63] User is not authenticated
+2025-09-08 19:58:50,130 - src.browser.selenium_manager - INFO - [0352dd63] Session saved
+2025-09-08 19:58:52,586 - src.browser.selenium_manager - INFO - [0352dd63] Browser closed
+2025-09-08 19:58:52,588 - src.browser.manager_selenium - INFO - [0352dd63] Browser manager closed
+2025-09-08 20:06:31,969 - __main__ - INFO - [4a216c89]   Total messages: 4
+2025-09-08 20:06:31,970 - __main__ - INFO - [4a216c89]   Sent messages: 2
+2025-09-08 20:06:31,971 - __main__ - INFO - [4a216c89]   Received messages: 2
+2025-09-08 20:06:31,972 - __main__ - INFO - [4a216c89]   Unique senders: 3
+2025-09-08 20:06:31,972 - __main__ - INFO - [4a216c89]   Senders: ['TechCorp HR', 'StartupXYZ', 'You']
+2025-09-08 20:06:31,973 - __main__ - INFO - [4a216c89]   Messages containing 'python': 0
+2025-09-08 20:06:31,974 - __main__ - INFO - [4a216c89]   Conversation threads: 2
+2025-09-08 20:06:31,979 - src.chat.extractor - INFO - [e5e3f03b] Exported 4 messages to exports\test_chat_export.csv
+2025-09-08 20:10:28,587 - src.browser.manager_selenium - INFO - [94238200] Starting browser manager with Selenium
+2025-09-08 20:10:28,588 - src.browser.selenium_manager - INFO - [94238200] Starting Selenium Chrome browser
+2025-09-08 20:10:28,589 - WDM - INFO - ====== WebDriver manager ======
+2025-09-08 20:10:36,099 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-08 20:10:37,757 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-08 20:10:39,119 - WDM - INFO - Driver [C:\Users\saray\.wdm\drivers\chromedriver\win64\140.0.7339.80\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-08 20:10:47,655 - src.browser.selenium_manager - INFO - [94238200] Session cookies loaded
+2025-09-08 20:10:47,655 - src.browser.selenium_manager - INFO - [94238200] Selenium browser started successfully
+2025-09-08 20:10:47,656 - src.browser.manager_selenium - INFO - [94238200] Browser manager started successfully
+2025-09-08 20:10:47,663 - src.browser.selenium_manager - INFO - [94238200] Navigating to: https://internshala.com
+2025-09-08 20:10:51,141 - src.browser.selenium_manager - INFO - [94238200] Navigating to: https://internshala.com/student/dashboard
+2025-09-08 20:11:03,557 - src.browser.selenium_manager - WARNING - [94238200] Selector not found: .dashboard
+2025-09-08 20:11:03,559 - src.browser.internshala_bot - INFO - [94238200] User is not authenticated
+2025-09-08 20:11:03,618 - src.browser.selenium_manager - INFO - [94238200] Session saved
+2025-09-08 20:11:07,684 - src.browser.selenium_manager - INFO - [94238200] Browser closed
+2025-09-08 20:11:07,685 - src.browser.manager_selenium - INFO - [94238200] Browser manager closed
+2025-09-08 20:15:00,770 - __main__ - INFO - [f9a7fb25] Test 1: Basic Python internship search
+2025-09-08 20:15:00,771 - src.browser.manager_selenium - INFO - [fa08caf9] Starting browser manager with Selenium
+2025-09-08 20:15:00,772 - src.browser.selenium_manager - INFO - [fa08caf9] Starting Selenium Chrome browser
+2025-09-08 20:15:00,772 - WDM - INFO - ====== WebDriver manager ======
+2025-09-08 20:15:07,618 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-08 20:15:09,052 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-08 20:15:10,390 - WDM - INFO - Driver [C:\Users\saray\.wdm\drivers\chromedriver\win64\140.0.7339.80\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-08 20:15:18,724 - src.browser.selenium_manager - INFO - [fa08caf9] Session cookies loaded
+2025-09-08 20:15:18,724 - src.browser.selenium_manager - INFO - [fa08caf9] Selenium browser started successfully
+2025-09-08 20:15:18,725 - src.browser.manager_selenium - INFO - [fa08caf9] Browser manager started successfully
+2025-09-08 20:15:18,725 - src.internships.scraper - INFO - [7bb24394] Starting internship search with limit: 5
+2025-09-08 20:15:18,726 - src.browser.selenium_manager - INFO - [fa08caf9] Navigating to: https://internshala.com/student/dashboard
+2025-09-08 20:15:31,858 - src.browser.selenium_manager - WARNING - [fa08caf9] Selector not found: .dashboard
+2025-09-08 20:15:31,859 - src.browser.internshala_bot - INFO - [fa08caf9] User is not authenticated
+2025-09-08 20:15:31,860 - src.internships.scraper - WARNING - [7bb24394] User not authenticated - some features may be limited
+2025-09-08 20:15:31,860 - src.internships.scraper - INFO - [7bb24394] Search URL: https://internshala.com/internships?keyword=python&stipend_type=paid
+2025-09-08 20:15:31,861 - src.browser.selenium_manager - INFO - [fa08caf9] Navigating to: https://internshala.com/internships?keyword=python&stipend_type=paid
+2025-09-08 20:15:39,524 - src.internships.scraper - ERROR - [7bb24394] Failed to extract internship listings: 'WebDriver' object has no attribute 'By'
+2025-09-08 20:15:39,524 - src.internships.scraper - INFO - [7bb24394] Applied advanced filters: 0 -> 0 internships
+2025-09-08 20:15:39,571 - src.browser.selenium_manager - INFO - [fa08caf9] Session saved
+2025-09-08 20:15:42,070 - src.browser.selenium_manager - INFO - [fa08caf9] Browser closed
+2025-09-08 20:15:42,071 - src.browser.manager_selenium - INFO - [fa08caf9] Browser manager closed
+2025-09-08 20:15:42,072 - __main__ - INFO - [f9a7fb25] 
+Test 2: Advanced filtering with multiple criteria
+2025-09-08 20:15:42,073 - src.browser.manager_selenium - INFO - [3be3aa63] Starting browser manager with Selenium
+2025-09-08 20:15:42,073 - src.browser.selenium_manager - INFO - [3be3aa63] Starting Selenium Chrome browser
+2025-09-08 20:15:42,075 - WDM - INFO - ====== WebDriver manager ======
+2025-09-08 20:15:48,778 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-08 20:15:50,117 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-08 20:15:51,453 - WDM - INFO - Driver [C:\Users\saray\.wdm\drivers\chromedriver\win64\140.0.7339.80\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-08 20:15:59,605 - src.browser.selenium_manager - INFO - [3be3aa63] Session cookies loaded
+2025-09-08 20:15:59,606 - src.browser.selenium_manager - INFO - [3be3aa63] Selenium browser started successfully
+2025-09-08 20:15:59,607 - src.browser.manager_selenium - INFO - [3be3aa63] Browser manager started successfully
+2025-09-08 20:15:59,607 - src.internships.scraper - INFO - [69de818d] Starting internship search with limit: 3
+2025-09-08 20:15:59,607 - src.browser.selenium_manager - INFO - [3be3aa63] Navigating to: https://internshala.com/student/dashboard
+2025-09-08 20:16:13,232 - src.browser.selenium_manager - WARNING - [3be3aa63] Selector not found: .dashboard
+2025-09-08 20:16:13,232 - src.browser.internshala_bot - INFO - [3be3aa63] User is not authenticated
+2025-09-08 20:16:13,233 - src.internships.scraper - WARNING - [69de818d] User not authenticated - some features may be limited
+2025-09-08 20:16:13,233 - src.internships.scraper - INFO - [69de818d] Search URL: https://internshala.com/internships?keyword=data+analytics&location=Bangalore,Mumbai&type=work_from_home&stipend_type=paid
+2025-09-08 20:16:13,234 - src.browser.selenium_manager - INFO - [3be3aa63] Navigating to: https://internshala.com/internships?keyword=data+analytics&location=Bangalore,Mumbai&type=work_from_home&stipend_type=paid
+2025-09-08 20:16:20,933 - src.internships.scraper - ERROR - [69de818d] Failed to extract internship listings: 'WebDriver' object has no attribute 'By'
+2025-09-08 20:16:20,934 - src.internships.scraper - INFO - [69de818d] Applied advanced filters: 0 -> 0 internships
+2025-09-08 20:16:20,980 - src.browser.selenium_manager - INFO - [3be3aa63] Session saved
+2025-09-08 20:16:23,492 - src.browser.selenium_manager - INFO - [3be3aa63] Browser closed
+2025-09-08 20:16:23,493 - src.browser.manager_selenium - INFO - [3be3aa63] Browser manager closed
+2025-09-08 20:16:23,493 - __main__ - INFO - [f9a7fb25] 
+Test 3: Testing URL construction
+2025-09-08 20:17:52,400 - src.browser.manager_selenium - INFO - [be697385] Starting browser manager with Selenium
+2025-09-08 20:17:52,401 - src.browser.selenium_manager - INFO - [be697385] Starting Selenium Chrome browser
+2025-09-08 20:17:52,402 - WDM - INFO - ====== WebDriver manager ======
+2025-09-08 20:17:59,130 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-08 20:18:00,456 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-08 20:18:01,836 - WDM - INFO - Driver [C:\Users\saray\.wdm\drivers\chromedriver\win64\140.0.7339.80\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-08 20:18:11,895 - src.browser.selenium_manager - INFO - [be697385] Session cookies loaded
+2025-09-08 20:18:11,896 - src.browser.selenium_manager - INFO - [be697385] Selenium browser started successfully
+2025-09-08 20:18:11,896 - src.browser.manager_selenium - INFO - [be697385] Browser manager started successfully
+2025-09-08 20:18:11,903 - src.internships.scraper - INFO - [400f2149] Starting internship search with limit: 3
+2025-09-08 20:18:11,904 - src.browser.selenium_manager - INFO - [be697385] Navigating to: https://internshala.com/student/dashboard
+2025-09-08 20:18:25,073 - src.browser.selenium_manager - WARNING - [be697385] Selector not found: .dashboard
+2025-09-08 20:18:25,076 - src.browser.internshala_bot - INFO - [be697385] User is not authenticated
+2025-09-08 20:18:25,076 - src.internships.scraper - WARNING - [400f2149] User not authenticated - some features may be limited
+2025-09-08 20:18:25,077 - src.internships.scraper - INFO - [400f2149] Search URL: https://internshala.com/internships?keyword=python developer
+2025-09-08 20:18:25,077 - src.browser.selenium_manager - INFO - [be697385] Navigating to: https://internshala.com/internships?keyword=python developer
+2025-09-08 20:18:33,135 - src.internships.scraper - INFO - [400f2149] Found 51 internships using selector: .internship_meta
+2025-09-08 20:22:42,518 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF63ED0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:22:46,615 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BE57A80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:22:50,678 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BE575C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:22:58,844 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF66360>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:23:02,909 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF66580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:23:07,004 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF667A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:23:15,222 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF66CF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:23:19,318 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF66F10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:23:29,519 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF67790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:23:33,612 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF679B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:23:37,700 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF67BD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:23:45,894 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BFD8160>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:23:49,991 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BFD8380>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:23:54,066 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BFD85A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:24:02,230 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BFD8AF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:24:06,310 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF67DF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:24:10,388 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF67BD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:24:18,609 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF678A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:24:22,708 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF67680>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:24:26,793 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF67240>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:24:34,956 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF66CF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:24:39,036 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF66BE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:24:43,107 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF66AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element
+2025-09-08 20:24:51,281 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002633BF66360>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c5b984fbb4adcc553244f00beeca3ee4/element/f.CAF12816F8A131701F7FAA9A73E2E8F5.d.BBCA0AFB4E856ABF6D6C46E9F0791FFD.e.155/element

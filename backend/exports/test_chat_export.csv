@@ -1,0 +1,5 @@
+id,sender,direction,timestamp,cleaned_text,raw_text,attachments,source_url
+fe13e54e-92d0-481f-ac06-7c7a96bf56e8,You,sent,2025-09-08T20:06:31.953459,"Hi, I'm interested in the Python internship position.","Hi, I'm interested in the Python internship position.",,https://internshala.com/chat/123
+b4a3c970-a07d-4b49-bcbc-18d1f38d2077,TechCorp HR,received,2025-09-08T20:06:31.953574,Thank you for your interest! Can you tell us about your Python experience?,Thank you for your interest! Can you tell us about your Python experience?,,https://internshala.com/chat/123
+93aaedee-e8d6-47c5-ad29-d209261b914e,You,sent,2025-09-08T20:06:31.953599,"I have 2 years of experience with Python, Django, and Flask frameworks.","I have 2 years of experience with Python, Django, and Flask frameworks.",https://internshala.com/attachment/resume.pdf,https://internshala.com/chat/123
+3c1449ab-17f5-4ac2-b905-5b8e7b1540b9,StartupXYZ,received,2025-09-08T20:06:31.953617,Great! When would you be available for a quick interview?,Great! When would you be available for a quick interview?,,https://internshala.com/chat/456
