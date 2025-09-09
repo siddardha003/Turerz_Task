@@ -1,0 +1,239 @@
+2025-09-09 23:24:33,396 - watchfiles.main - INFO - 5 changes detected
+2025-09-09 23:24:35,152 - src.ai.openai_client - INFO - [62d9ec3a] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:24:36,427 - src.ai.openai_client - INFO - [62d9ec3a] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:24:37,567 - src.ai.openai_client - INFO - [62d9ec3a] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:24:38,601 - src.ai.openai_client - INFO - [62d9ec3a] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:24:38,602 - TurezMCPServer - INFO - [363a1f00] AI components initialized successfully
+2025-09-09 23:24:38,627 - app - INFO - [e908920a] Web interface initialized with MCP server
+2025-09-09 23:24:38,901 - app - ERROR - [e908920a] Error serving web interface: 'charmap' codec can't decode byte 0x8d in position 13537: character maps to <undefined>
+2025-09-09 23:25:31,634 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:25:31,779 - src.browser.manager_selenium - INFO - [7e62c00e] Browser manager closed
+2025-09-09 23:25:31,781 - app - INFO - [e908920a] Web interface shutdown complete
+2025-09-09 23:25:33,085 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:25:40,934 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:25:41,303 - watchfiles.main - INFO - 5 changes detected
+2025-09-09 23:25:41,661 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:25:42,032 - watchfiles.main - INFO - 2 changes detected
+2025-09-09 23:25:43,021 - src.ai.openai_client - INFO - [5b29079b] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:25:44,102 - src.ai.openai_client - INFO - [5b29079b] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:25:45,314 - src.ai.openai_client - INFO - [5b29079b] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:25:46,398 - src.ai.openai_client - INFO - [5b29079b] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:25:46,399 - TurezMCPServer - INFO - [15fb1937] AI components initialized successfully
+2025-09-09 23:25:46,400 - app - INFO - [de2fef87] Web interface initialized with MCP server
+2025-09-09 23:25:46,402 - src.browser.manager_selenium - INFO - [9ef43caa] Browser manager closed
+2025-09-09 23:25:46,402 - app - INFO - [de2fef87] Web interface shutdown complete
+2025-09-09 23:25:47,742 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:25:52,896 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:25:54,183 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:01,700 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:02,058 - watchfiles.main - INFO - 5 changes detected
+2025-09-09 23:26:02,411 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:02,778 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:03,141 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:03,499 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:03,505 - src.ai.openai_client - INFO - [83311b45] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:26:03,853 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:04,209 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:04,554 - src.ai.openai_client - INFO - [83311b45] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:26:04,614 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:05,018 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:05,445 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:05,685 - src.ai.openai_client - INFO - [83311b45] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:26:05,858 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:06,273 - watchfiles.main - INFO - 2 changes detected
+2025-09-09 23:26:06,912 - src.ai.openai_client - INFO - [83311b45] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:26:06,913 - TurezMCPServer - INFO - [d1165c77] AI components initialized successfully
+2025-09-09 23:26:06,914 - app - INFO - [29956c34] Web interface initialized with MCP server
+2025-09-09 23:26:08,298 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:16,054 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:17,346 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:25,047 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:25,407 - watchfiles.main - INFO - 5 changes detected
+2025-09-09 23:26:25,763 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:26,121 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:26,479 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:26,760 - src.ai.openai_client - INFO - [e0baecab] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:26:26,845 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:27,446 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:27,808 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:28,116 - src.ai.openai_client - INFO - [e0baecab] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:26:28,220 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:28,591 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:29,008 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:29,178 - src.ai.openai_client - INFO - [e0baecab] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:26:29,427 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:29,829 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:30,234 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:30,275 - src.ai.openai_client - INFO - [e0baecab] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:26:30,276 - TurezMCPServer - INFO - [a860ef07] AI components initialized successfully
+2025-09-09 23:26:30,276 - app - INFO - [7b47f4c0] Web interface initialized with MCP server
+2025-09-09 23:26:30,640 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:31,044 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:31,448 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:31,857 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:32,261 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:32,628 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:33,091 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:33,511 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:33,924 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:34,332 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:34,738 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:35,158 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:35,562 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:35,967 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:36,382 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:36,750 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:37,224 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:37,640 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:38,045 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:38,453 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:38,822 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:39,250 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:39,662 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:40,068 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:40,486 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:40,844 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:41,269 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:41,678 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:42,084 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:42,486 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:42,905 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:43,309 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:43,712 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:44,118 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:44,480 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:44,887 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:45,290 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:45,695 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:46,099 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:46,507 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:46,906 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:47,321 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:47,739 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:48,159 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:48,524 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:48,981 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:49,395 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:49,802 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:50,207 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:50,615 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:51,030 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:51,397 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:51,858 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:52,271 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:52,678 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:53,083 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:53,493 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:53,900 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:54,305 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:54,719 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:55,128 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:55,494 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:55,900 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:56,318 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:56,726 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:57,143 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:57,548 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:57,930 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:58,340 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:58,747 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:59,155 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:59,560 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:26:59,963 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:00,369 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:00,771 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:01,200 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:01,611 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:02,017 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:02,383 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:02,793 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:03,250 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:03,610 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:04,018 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:04,435 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:04,852 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:05,220 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:05,680 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:06,056 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:06,469 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:06,887 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:07,293 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:07,700 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:08,116 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:08,518 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:08,927 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:09,330 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:09,737 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:10,155 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:10,559 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:10,976 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:11,382 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:11,790 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:12,195 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:12,604 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:13,014 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:13,418 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:13,824 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:14,243 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:14,648 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:15,053 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:15,462 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:15,883 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:16,286 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:16,692 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:17,110 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:17,514 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:17,928 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:18,287 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:18,698 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:19,100 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:19,558 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:19,929 - watchfiles.main - INFO - 1 change detected
+2025-09-09 23:27:20,226 - src.browser.manager_selenium - INFO - [30f99578] Browser manager closed
+2025-09-09 23:27:20,227 - app - INFO - [7b47f4c0] Web interface shutdown complete
+2025-09-09 23:34:29,587 - src.ai.openai_client - INFO - [cbcc86ce] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:34:30,596 - src.ai.openai_client - INFO - [cbcc86ce] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:34:31,540 - src.ai.openai_client - INFO - [cbcc86ce] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:34:32,537 - src.ai.openai_client - INFO - [cbcc86ce] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:34:32,538 - TurezMCPServer - INFO - [1e879e92] AI components initialized successfully
+2025-09-09 23:34:32,538 - app - INFO - [7433aaa3] Web interface initialized with MCP server
+2025-09-09 23:34:38,016 - app - ERROR - [7433aaa3] Status check error: 'BrowserManager' object has no attribute 'driver'
+2025-09-09 23:34:38,025 - app - ERROR - [7433aaa3] Error listing MCP tools: 'TurezMCPServer' object has no attribute 'handle_list_tools'
+2025-09-09 23:35:02,194 - app - ERROR - [7433aaa3] Status check error: 'BrowserManager' object has no attribute 'driver'
+2025-09-09 23:35:08,012 - app - ERROR - [7433aaa3] Status check error: 'BrowserManager' object has no attribute 'driver'
+2025-09-09 23:35:17,167 - app - ERROR - [7433aaa3] Status check error: 'BrowserManager' object has no attribute 'driver'
+2025-09-09 23:35:38,011 - app - ERROR - [7433aaa3] Status check error: 'BrowserManager' object has no attribute 'driver'
+2025-09-09 23:35:47,138 - app - ERROR - [7433aaa3] Status check error: 'BrowserManager' object has no attribute 'driver'
+2025-09-09 23:36:02,389 - app - ERROR - [7433aaa3] Status check error: 'BrowserManager' object has no attribute 'driver'
+2025-09-09 23:36:02,401 - app - ERROR - [7433aaa3] Error listing MCP tools: 'TurezMCPServer' object has no attribute 'handle_list_tools'
+2025-09-09 23:36:09,338 - app - ERROR - [7433aaa3] Status check error: 'BrowserManager' object has no attribute 'driver'
+2025-09-09 23:36:19,806 - src.browser.manager_selenium - INFO - [108d6dd9] Browser manager closed
+2025-09-09 23:36:19,813 - app - INFO - [7433aaa3] Web interface shutdown complete
+2025-09-09 23:36:47,899 - src.ai.openai_client - INFO - [5fb9ba1b] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:36:49,046 - src.ai.openai_client - INFO - [5fb9ba1b] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:36:50,124 - src.ai.openai_client - INFO - [5fb9ba1b] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:36:51,216 - src.ai.openai_client - INFO - [5fb9ba1b] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:36:51,217 - TurezMCPServer - INFO - [e43649a1] AI components initialized successfully
+2025-09-09 23:36:51,218 - app - INFO - [608181ef] Web interface initialized with MCP server
+2025-09-09 23:37:28,684 - app - INFO - [608181ef] Processing natural language query: internship
+2025-09-09 23:37:31,101 - src.ai.openai_client - INFO - [5fb9ba1b] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:37:33,959 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-09 23:37:34,038 - openai._base_client - INFO - Retrying request to /chat/completions in 0.439907 seconds
+2025-09-09 23:37:35,606 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-09 23:37:35,637 - openai._base_client - INFO - Retrying request to /chat/completions in 0.983617 seconds
+2025-09-09 23:37:37,631 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-09 23:37:37,646 - src.ai.openai_client - ERROR - [5fb9ba1b] OpenAI API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-09-09 23:37:37,648 - app - WARNING - [608181ef] AI parsing failed, using rule-based parsing: the JSON object must be str, bytes or bytearray, not NoneType
+2025-09-09 23:37:37,650 - app - ERROR - [608181ef] Internship search error: 'TurezMCPServer' object has no attribute 'handle_call_tool'
+2025-09-09 23:39:05,301 - app - INFO - [608181ef] Processing natural language query: Show graphic design internships posted in last 7 days
+2025-09-09 23:39:07,464 - src.ai.openai_client - INFO - [5fb9ba1b] OpenAI client initialized with model: gpt-4o-mini
+2025-09-09 23:39:09,567 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-09 23:39:09,762 - openai._base_client - INFO - Retrying request to /chat/completions in 0.408583 seconds
+2025-09-09 23:39:11,016 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-09 23:39:11,170 - openai._base_client - INFO - Retrying request to /chat/completions in 0.864798 seconds
+2025-09-09 23:39:12,777 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-09 23:39:12,819 - src.ai.openai_client - ERROR - [5fb9ba1b] OpenAI API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-09-09 23:39:12,935 - app - WARNING - [608181ef] AI parsing failed, using rule-based parsing: the JSON object must be str, bytes or bytearray, not NoneType
+2025-09-09 23:39:13,036 - app - ERROR - [608181ef] Internship search error: 'TurezMCPServer' object has no attribute 'handle_call_tool'
+2025-09-09 23:40:53,989 - src.browser.manager_selenium - INFO - [72d4485a] Browser manager closed
+2025-09-09 23:40:53,990 - app - INFO - [608181ef] Web interface shutdown complete

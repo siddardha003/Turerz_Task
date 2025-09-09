@@ -1,0 +1,23 @@
+# Turerez MCP Server Requirements
+# Model Context Protocol dependencies for external API integration
+
+# Core MCP dependencies
+mcp>=1.0.0
+pydantic>=2.5.0
+
+# Async processing
+asyncio-mqtt>=0.13.0
+aiofiles>=23.0.0
+
+# JSON schema validation
+jsonschema>=4.20.0
+
+# Optional: Enhanced MCP features
+uvicorn[standard]>=0.24.0  # For HTTP MCP transport
+websockets>=12.0           # For WebSocket MCP transport
+
+# Development dependencies
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+mypy>=1.7.0

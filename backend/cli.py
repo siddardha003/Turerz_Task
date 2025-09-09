@@ -16,6 +16,7 @@ from src.config import config
 from src.browser.manager_selenium import BrowserManager, InternshalaAuth
 from src.chat.extractor import ChatMessageExtractor, ChatMessageAnalyzer
 from src.internships.scraper import InternshipScraper, InternshipSearchFilter
+from src.export import ExportManager, ExportOptions, ExportFormat, AnalyticsLevel
 
 app = typer.Typer(help="Turerz - Internshala Automation CLI")
 console = Console()
@@ -648,6 +649,213 @@ def trending_internships(
             console.print(f"❌ Trending search failed: {e}", style="bold red")
     
     asyncio.run(run_trending())
+
+
+@app.command()
+def export_advanced(
+    data_type: str = typer.Argument(..., help="Data type: 'chat', 'internship', or 'combined'"),
+    format: str = typer.Option("excel", "--format", "-f", help="Export format: csv, json, excel, html, markdown"),
+    analytics_level: str = typer.Option("comprehensive", "--analytics", "-a", help="Analytics level: basic, standard, advanced, comprehensive"),
+    include_charts: bool = typer.Option(True, "--charts/--no-charts", help="Include visualizations"),
+    output_dir: str = typer.Option("exports", "--output", "-o", help="Output directory")
+):
+    """Advanced export with analytics and visualizations."""
+    
+    async def run_export():
+        try:
+            console.print(Panel(f"📊 Advanced Export - {data_type.title()}", style="bold blue"))
+            
+            # Initialize export manager
+            export_manager = ExportManager(output_dir)
+            
+            # Configure export options
+            export_format = ExportFormat(format.lower())
+            analytics_level_enum = AnalyticsLevel(analytics_level.lower())
+            
+            options = ExportOptions(
+                format=export_format,
+                include_analytics=True,
+                analytics_level=analytics_level_enum,
+                include_charts=include_charts,
+                timestamp_suffix=True
+            )
+            
+            console.print(f"🔧 Export Configuration:")
+            console.print(f"  Format: {format.upper()}")
+            console.print(f"  Analytics: {analytics_level.title()}")
+            console.print(f"  Charts: {'Yes' if include_charts else 'No'}")
+            console.print(f"  Output: {output_dir}")
+            
+            if data_type.lower() == "chat":
+                # Generate sample chat data for demo
+                sample_messages = _generate_sample_chat_messages(20)
+                result = await export_manager.export_chat_data(sample_messages, options, include_charts)
+                
+                console.print(f"\n✅ Chat export completed!", style="green")
+                console.print(f"📁 Main file: {result['main_export']}")
+                console.print(f"📊 Report: {result['report']}")
+                
+                if result['charts']:
+                    console.print(f"📈 Charts generated: {len(result['charts'])}")
+                
+            elif data_type.lower() == "internship":
+                # Generate sample internship data for demo
+                sample_internships = _generate_sample_internship_data(50)
+                result = await export_manager.export_internship_data(sample_internships, options, include_charts)
+                
+                console.print(f"\n✅ Internship export completed!", style="green")
+                console.print(f"📁 Main file: {result['main_export']}")
+                console.print(f"📊 Report: {result['report']}")
+                
+                if result['charts']:
+                    console.print(f"📈 Charts generated: {len(result['charts'])}")
+                
+            elif data_type.lower() == "combined":
+                # Generate sample data for both
+                sample_messages = _generate_sample_chat_messages(15)
+                sample_internships = _generate_sample_internship_data(30)
+                
+                result = await export_manager.export_combined_data(sample_messages, sample_internships, options)
+                
+                console.print(f"\n✅ Combined export completed!", style="green")
+                console.print(f"📁 Chat file: {result['chat_export']['main_export']}")
+                console.print(f"📁 Internship file: {result['internship_export']['main_export']}")
+                console.print(f"📊 Combined report: {result['combined_report']}")
+                console.print(f"📈 Dashboard: {result['dashboard']}")
+                
+            else:
+                console.print(f"❌ Invalid data type: {data_type}", style="red")
+                console.print("Valid types: chat, internship, combined")
+                return
+            
+            console.print(f"\n🎉 Advanced export completed successfully!", style="bold green")
+            
+        except Exception as e:
+            console.print(f"❌ Export failed: {e}", style="bold red")
+    
+    asyncio.run(run_export())
+
+
+@app.command()
+def export_history():
+    """Show export history and cleanup options."""
+    console.print(Panel("📚 Export History", style="bold blue"))
+    
+    try:
+        export_manager = ExportManager()
+        history = export_manager.get_export_history()
+        
+        if not history:
+            console.print("📭 No exports found", style="yellow")
+            return
+        
+        # Display history table
+        history_table = Table(title="Recent Exports")
+        history_table.add_column("Filename", style="cyan", width=30)
+        history_table.add_column("Type", style="magenta", width=10)
+        history_table.add_column("Size (MB)", style="green", width=10)
+        history_table.add_column("Created", style="yellow", width=20)
+        
+        for export in history[:20]:  # Show last 20 exports
+            history_table.add_row(
+                export['filename'],
+                export['type'].title(),
+                f"{export['size_mb']:.2f}",
+                export['created'][:19].replace('T', ' ')
+            )
+        
+        console.print(history_table)
+        
+        # Show summary
+        total_size = sum(export['size_mb'] for export in history)
+        console.print(f"\n📊 Summary: {len(history)} files, {total_size:.2f} MB total")
+        
+        # Cleanup option
+        cleanup = typer.confirm("🧹 Clean up exports older than 30 days?")
+        if cleanup:
+            cleaned = export_manager.cleanup_old_exports(30)
+            console.print(f"✅ Cleaned up {cleaned} old files", style="green")
+    
+    except Exception as e:
+        console.print(f"❌ Failed to get export history: {e}", style="red")
+
+
+def _generate_sample_chat_messages(count: int) -> list:
+    """Generate sample chat messages for demo"""
+    import uuid
+    from datetime import datetime, timedelta
+    import random
+    
+    messages = []
+    senders = ["You", "TechCorp HR", "StartupXYZ", "InnovateLab", "DataSystems"]
+    
+    for i in range(count):
+        direction = MessageDirection.SENT if random.choice([True, False]) else MessageDirection.RECEIVED
+        sender = "You" if direction == MessageDirection.SENT else random.choice(senders[1:])
+        
+        sample_texts = [
+            "Hi, I'm interested in the internship position.",
+            "Thank you for your application. Can you tell us about your experience?",
+            "I have experience with Python, JavaScript, and data analysis.",
+            "When would you be available for an interview?",
+            "I'm available next week for a call.",
+            "Great! We'll send you the interview details soon.",
+            "Looking forward to hearing from you.",
+            "Can you share your portfolio?",
+            "Here's my GitHub link with recent projects.",
+            "The internship starts in 2 weeks. Are you interested?"
+        ]
+        
+        message = ChatMessage(
+            id=str(uuid.uuid4()),
+            sender=sender,
+            direction=direction,
+            timestamp=datetime.now() - timedelta(hours=random.randint(0, 168)),  # Last week
+            raw_text=random.choice(sample_texts),
+            cleaned_text=random.choice(sample_texts),
+            attachments=[],
+            source_url=f"https://internshala.com/chat/{random.randint(100, 999)}"
+        )
+        messages.append(message)
+    
+    return messages
+
+
+def _generate_sample_internship_data(count: int) -> list:
+    """Generate sample internship data for demo"""
+    import uuid
+    from datetime import datetime, timedelta
+    import random
+    
+    internships = []
+    companies = ["TechCorp", "StartupXYZ", "InnovateLab", "DataSystems", "WebSolutions", "CloudTech", "AILabs"]
+    locations = ["Bangalore", "Mumbai", "Delhi", "Pune", "Hyderabad", "Chennai", "Gurgaon"]
+    titles = ["Python Developer", "Data Analyst", "Web Developer", "ML Engineer", "UI/UX Designer", "Marketing Intern"]
+    skills = ["Python", "JavaScript", "React", "SQL", "Machine Learning", "Data Analysis", "HTML/CSS"]
+    
+    for i in range(count):
+        stipend_min = random.choice([None, 5000, 8000, 10000, 15000, 20000, 25000])
+        stipend_max = stipend_min + random.randint(2000, 5000) if stipend_min else None
+        
+        internship = InternshipSummary(
+            id=str(uuid.uuid4()),
+            title=random.choice(titles),
+            company=random.choice(companies),
+            location=random.choice(locations),
+            duration=random.choice([1, 2, 3, 4, 6]),
+            stipend_min=stipend_min,
+            stipend_max=stipend_max,
+            mode=random.choice([InternshipMode.REMOTE, InternshipMode.ON_SITE, InternshipMode.HYBRID]),
+            posted_date=datetime.now().date() - timedelta(days=random.randint(1, 30)),
+            application_deadline=datetime.now().date() + timedelta(days=random.randint(5, 45)),
+            skills_required=random.sample(skills, k=random.randint(2, 4)),
+            perks=random.sample(["Certificate", "Flexible hours", "5-day work week"], k=random.randint(1, 3)),
+            description=f"Exciting {random.choice(titles).lower()} opportunity at {random.choice(companies)}. Work with cutting-edge technology and gain hands-on experience.",
+            internshala_url=f"https://internshala.com/internship/detail/{random.randint(1000000, 9999999)}"
+        )
+        internships.append(internship)
+    
+    return internships
 
 
 if __name__ == "__main__":

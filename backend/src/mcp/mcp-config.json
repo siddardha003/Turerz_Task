@@ -1,0 +1,81 @@
+{
+  "name": "turerez-mcp-server",
+  "version": "1.0.0",
+  "description": "Turerez Model Context Protocol Server for Internshala Automation",
+  "main": "src/mcp/server.py",
+  "scripts": {
+    "start": "python src/mcp/server.py",
+    "dev": "python -m uvicorn src.mcp.server:app --reload --host 0.0.0.0 --port 8000"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol", 
+    "internshala",
+    "automation",
+    "chat-extraction",
+    "internship-scraping"
+  ],
+  "author": "Turerez Development Team",
+  "license": "MIT",
+  "dependencies": {
+    "mcp": "^1.0.0",
+    "pydantic": "^2.5.0",
+    "asyncio": "*",
+    "pathlib": "*"
+  },
+  "mcpServers": {
+    "turerez-automation": {
+      "command": "python",
+      "args": ["src/mcp/server.py"],
+      "description": "Turerez Internshala automation via MCP"
+    }
+  },
+  "capabilities": [
+    "resources",
+    "tools",
+    "logging"
+  ],
+  "tools": [
+    {
+      "name": "extract_chats",
+      "description": "Extract chat messages from Internshala conversations"
+    },
+    {
+      "name": "search_internships", 
+      "description": "Search and scrape internships from Internshala"
+    },
+    {
+      "name": "analyze_market",
+      "description": "Perform comprehensive market analysis on internship data"
+    },
+    {
+      "name": "export_data",
+      "description": "Export data with advanced analytics and visualizations"
+    },
+    {
+      "name": "browser_control",
+      "description": "Control browser automation (connect, disconnect, status)"
+    },
+    {
+      "name": "get_recommendations",
+      "description": "Get AI-powered recommendations based on data analysis"
+    }
+  ],
+  "resources": [
+    {
+      "uri": "turerez://config",
+      "name": "Turerez Configuration",
+      "description": "Current configuration settings"
+    },
+    {
+      "uri": "turerez://status", 
+      "name": "Server Status",
+      "description": "Current server and browser status"
+    },
+    {
+      "uri": "turerez://exports",
+      "name": "Export History",
+      "description": "Recent export operations"
+    }
+  ]
+}
